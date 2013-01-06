@@ -1,0 +1,6 @@
+*trignometry
+*algebra
+*basic math
+*geometry
+*create a helper module for gamma func, pi func and sigma
+*crreate a helper module for porting built-in python functions
