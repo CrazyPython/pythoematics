@@ -1,4 +1,6 @@
-from modules import calculate,helper
+import sys,os
+wd = os.getcwd()
+sys.path.extend[wd+"\calculate",wd+"\helper"]
 def intlist(l):
     return([int(x) for x in l])
 features = ["line calculator"]
@@ -6,7 +8,7 @@ prompt = ""
 for i in features:
     prompt= prompt + str(features.index(i)),i,"\n"
 def lineinter():
-    line = calculate.line
+    import line
     prompt = \
     """
     1 view all details

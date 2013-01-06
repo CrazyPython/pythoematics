@@ -17,5 +17,3 @@ class line(object):
         if point.loc[0]*self.slope)+self.y_inter == point.loc[1]:
             return True
         return False
-    
-        
